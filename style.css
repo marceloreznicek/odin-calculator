@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+
+    /* justify-content: center;
+    display:flex;
+    flex-direction: column;*/
+    /* width: 600px;  */
+
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.801);
+    border: 4px solid rgb(163, 163, 163);
+}
+
+#div-buttons {
+
+    display: flex;
+    justify-content: center;
+}
+
+.div-numbers {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-button-blue,
+.div-numbers-row {
+    display: flex
+}
+
+.button-blue{
+
+    background-color: rgb(25, 0, 53);
+    color: white;
+}
+
+.button-number {
+    background-color: rgb(0, 53, 0);
+    color: white;
+}
+
+.button-operator {
+    background-color: rgb(250, 171, 0);
+    color: white;
+}
+
+
+#screen {
+    background-color: rgb(230, 229, 229);
+    padding: 10px;
+    margin-bottom: 10px;
+
+    font-size: 30px;
+    text-align: right;
+
+    min-height: 70px;
+
+}
+
+#buttons-left {
+}
+
+#buttons-right {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    flex: 1;
+
+    text-align: center;
+
+    min-width: 100px;
+    min-height: 20px;
+
+    border-radius: 4px;
+}
